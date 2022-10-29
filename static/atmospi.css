@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+#summary {
+  border: 1px solid #CCC;
+  margin: 0 auto 1em auto;
+  padding-bottom: 1em;
+  width: 95%;
+}
+#summary .measurement {
+  font-weight: bold;
+}
+#summary .time {
+  color: #999;
+  font-size: smaller;
+}
+#graph {
+  margin: auto;
+  height: 95%;
+  width: 95%;
+}
+#footer {
+  font-size: small;
+  padding: 1em 0 2em 0;
+}
+
+.ld-label {
+	width:200px;
+	display: inline-block;
+}
+
+.ld-row {
+}
+
+.ld-url-input {
+	width: 500px; 
+}
+
+.ld-time-input {
+	width: 40px;
+}

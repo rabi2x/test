@@ -1,0 +1,129 @@
+<html>
+<head>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+
+
+<style type="text/css">
+#resize {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        display: inline-block;
+}
+#slider {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        width: 200px;
+        display: inline-block;
+}
+#sliderValue {
+        margin-left: 20px;
+        display: inline-block;
+}
+</style>
+<script>
+
+var socket = io.connect();
+
+// automatyczny start zegara - skrypt po stronie klienta
+document.getElementById("timeIS").innerHTML    =updateTime2();
+
+$(document).ready(function() {
+        $("#slider").slider({
+                'max': 720,
+                'min': 160,
+                'step': 1,
+                'value': 360,
+                slide: function (event, ui) {
+                        var height = parseInt (ui.value / 5) * 4;
+                        $('#sliderValue').text (ui.value + ' x ' + height);
+                },
+                change: function (event, ui) {
+                        var height = parseInt (ui.value / 5) * 4;
+                        $('#cam1').attr ('width', ui.value);
+                        $('#cam1').attr ('height', height);
+                        $('#cam2').attr ('width', ui.value);
+                        $('#cam2').attr ('height', height);
+                        $('#cam3').attr ('width', ui.value);
+                        $('#cam3').attr ('height', height);
+                        $('#cam4').attr ('width', ui.value);
+                        $('#cam4').attr ('height', height);
+                }
+        });
+});
+
+       // przelacz stan ON-OFF ( np: kamery )
+        function changeState(state){
+            if (state==1){
+                // Emit message changing the state to 1
+                socket.emit('changeState', '{"state":1}');
+                // Change led status on web page to ON
+                document.getElementById("outputStatus").innerHTML = "Status: ON";
+                alert( exposed() ); 
+            }
+            else if (state==0){
+                // Emit message changing the state to 0
+                socket.emit('changeState', '{"state":0}');
+                // Change led status on web page to OFF
+                document.getElementById("outputStatus").innerHTML = "Status: OFF";
+                //alert( notExposed() ); 
+                //alert("Label Value is " );
+
+            }
+        }
+
+        function GetValue1()
+        {
+           document.getElementById("output2").innerHTML =update2Time() ;
+        }
+
+        function update2Time() {
+        var currentTime = new Date();
+        var hours = currentTime.getHours();
+        var minutes = currentTime.getMinutes();
+        var seconds = currentTime.getSeconds();
+        if (minutes < 10){
+            minutes = "0" + minutes;
+        }
+        if (seconds < 10){
+            seconds = "0" + seconds;
+        }
+        var v = hours + ":" + minutes + ":" + seconds + " ";
+        if(hours > 11){
+            v+="PM";
+        } else {
+            v+="AM"
+        }
+        setTimeout("update2Time()",1000);
+        document.getElementById('timeIS').innerHTML=v;
+        return v;
+       }
+
+</script>
+
+</head>
+<body>
+<div class="container">
+    <h2>Current Time     : <span id="timeIS" />
+    </h2>
+    <p id="outputStatus">Status</p>
+    <button type="button" onclick="changeState(1);">ON</button>
+    <button type="button" onclick="changeState(0);">OFF</button>
+    <p id="output2">____________czas status</p>
+    <button type="button" onclick = "GetValue1();"> czas</button>
+</div>    
+
+<div id="resize">Resize:</div>
+<div id="slider"></div>
+<div id="sliderValue">720 x 576</div></br>
+<img id=cam1 src=http://192.168.25.112:8081/?action=stream" width=360 border="0">
+<img id=cam2 src=http://192.168.25.112:8081/?action=stream" width=360 border="0">
+<img id=cam3 src=http://192.168.25.112:8081/?action=stream" width=360 border="0">
+<img id=cam4 src=http://192.168.25.112:8081/?action=stream" width=360 border="0">
+</body>
+</html>
