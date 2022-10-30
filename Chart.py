@@ -10,7 +10,7 @@ from datetime import datetime
 from flask import Flask, Response, render_template
 #import config
 
-# inspect .11
+# inspect .11 x 2
 # .............................. date-time section
 import time,datetime
 from datetime import datetime
