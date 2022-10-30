@@ -1,0 +1,1000 @@
+  657  python /home/pi/_project.2/CheckDataInInfluxDB.py
+  658  sudo shutdown -h now
+  659  cd \home\pi\_projekt.2
+  660  cd \home\pi\_project.2
+  661  cd \home\pi\
+  662  cd \home\pi
+  663  ls -la
+  664  cd /home/pi/_project.2
+  665  ls -la
+  666  python ChartFromSQLite3.py
+  667  python ChartFromSQLite3.py HUMI_AM2301
+  668  python ChartFromSQLite3.py HUMI_AM2301 100
+  669  ifconfig
+  670  python ChartFromSQLite3.py HUMI_AM2301 100
+  671  ls -la
+  672  python CheckDataInSQLite3.py
+  673  crontab -e
+  674  /usr/bin/python2.7 /home/pi/_project.2/PMread.py
+  675  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToInfluxDBTables.py
+  676  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToSQLiteTables.py
+  677  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToInfluxDBTables.py
+  678  ls -la
+  679  python ReadSerialFromArduino.py
+  680  /usr/bin/python2.7 /home/pi/_project.2/PMread.py
+  681  ls -la /dev/tt*
+  682  /usr/bin/python2.7 /home/pi/_project.2/PMread.py
+  683  python ReadSerialFromArduino.py
+  684  ls -la /dev/tt*
+  685  python ReadSerialFromArduino.py
+  686  sudo reboot
+  687  ls -la /dev/tt*
+  688  python ReadSerialFromArduino.py
+  689  sudo reboot
+  690  cd /home/pi/_project2
+  691  cd /home/pi/_project.2
+  692  ls -la
+  693  python ReadSerialFromArduino.py
+  694  python ReadSerialFromArduino.py\
+  695  python ReadSerialFromArduino.py
+  696  clear
+  697  crontab -e
+  698  /usr/bin/python2.7 /home/pi/_project.2/PMread.py
+  699  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToInfluxDBTables.py
+  700  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToSQLiteTables.py>/dev/null 2>&1
+  701  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToSQLiteTables.py
+  702  ls -la
+  703  python  CheckDataInSQLite3.py
+  704  /usr/bin/python2.7 /home/pi/_project.2/PMread.py
+  705  /usr/bin/python2.7 /home/pi/_project.2/writeMeasuresToSQLiteTables.py
+  706  python  CheckDataInSQLite3.py
+  707  python ChartFromSQLite3.py HUMI_AM2301 100
+  708  python ChartFromSQLite3.py NH3_MiCS6814 100
+  709  python ChartFromSQLite3.py PM10_SDS011 100
+  710  python ChartFromSQLite3.py PM25_SDS011 100
+  711  python ChartFromSQLite3.py PM25_SDS011 30
+  712  python ChartFromSQLite3.py PM25_SDS011 20
+  713  pip install -U Werkzeug\
+  714  pip install -U Werkzeug
+  715  python upload.py
+  716  ls -la
+  717  python upload.py
+  718  ls -la *.txt
+  719  ls -la
+  720  python httpbasicauth.py
+  721  python wsecho.py
+  722  pip install wsproto
+  723  python wsecho.py
+  724  pip install -U itsdangerous
+  725  python dengerous.py
+  726  python dangerous.py
+  727  ss -lp | grep 6010
+  728  python serverSocket.py
+  729  curl -sL -I http://192.168.25.22:8086/ping
+  730  influx -host 192.168.25.22 -port 8086
+  731  influx -host 192.168.25.22 -port 8086  -precision 'rfc3339'
+  732  cd /home/pi/_project.2
+  733  ls -la
+  734  python PMread.py
+  735  ls -la
+  736  python  writeMeasuresToInfluxDBTables.py
+  737  ls -la Test*
+  738  python TestConnectToInfluxDB.py
+  739  ping 93.159.189.245
+  740  sudo shutdown -h now
+  741  sudo nano /etc/network/interfaces
+  742  sudo reboot
+  743  sudo shutdown -h now
+  744  ifconfig
+  745  sudo nano /etc/network/interfaces
+  746  sudo reboot
+  747  ifconfig
+  748  sudo shutdown -h now
+  749  sudo apt-get update
+  750  sudo apt-get install snmpd snmp
+  751  cat /etc/os-release
+  752  sudo nano /etc/apt/sources.list
+  753  sudo apt install snmp snmp-mibs-downloader
+  754  snmptranslate -Ou -IR sysDescr
+  755  snmptranslate -IR -Tp -OS system
+  756  snmptranslate -Tt
+  757  snmptranslate -Tz
+  758  sudo apt-get install snmp
+  759  sudo nano /etc/snmp/snmpd.conf
+  760  service snmpd restart
+  761  systemctl status snmpd.service
+  762  systemctl start snmpd
+  763  sudo systemctl start snmpd
+  764  sudo systemctl enable snmpd
+  765  sudo systemctl status snmpd.service
+  766  sudo /etc/snmp/snmpd.conf
+  767  sudo nano /etc/snmp/snmpd.conf
+  768  sudo service snmpd restart
+  769  sudo systemctl status snmpd.service
+  770  snmpd -f -Lo
+  771  ls -l ./agent/snmpd
+  772  sudo ./agent/snmpd
+  773  ip a
+  774  snmpwalk -v 2c -c public localhost memory
+  775  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  776  sudo nano /etc/snmp/snmpd.conf
+  777  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  778  systemctl start snmpd.service
+  779  sudo systemctl start snmpd.service
+  780  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  781  sudo nano /etc/snmp/snmpd.conf
+  782  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  783  cat /var/log/net-snmpd.log
+  784  at /var/log/net-snmpd.log 
+  785  cat /var/log/net-snmpd.log 
+  786  systemctl restart snmpd.service
+  787  sudo systemctl restart snmpd.service
+  788  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  789  sudo nano /etc/snmp/snmpd.conf
+  790  sudo systemctl restart snmpd.service
+  791  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  792  service --status-all |grep snmp
+  793  snmpstatus localhost
+  794  sudo nano /etc/snmp/snmp.conf
+  795  sudo apt install snmpd
+  796  sudo snmpwalk -c public -v1 192.168.25.32
+  797  sudo snmpd -f -Lo -C --rwcommunity=public --master=agentx --agentXSocket=tcp:localhost:1705
+  798  snmpwalk -Os -c public -v 1 localhost
+  799  snmpwalk -Os -c public -v 1 192.168.25.32
+  800  snmptranslate 
+  801  snmptranslate -Ou -IR sysDescr
+  802  sudo shutdown -h now
+  803  ifconfig 
+  804  pi@raspberrypi:~ $ ifconfig
+  805  eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+  806  lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+  807  wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+  808  pi@raspberrypi:~ $
+  809  sudo shutdown -h now
+  810  sudo shutdoen -h now
+  811  sudo shutdown -h now
+  812  ping 192.168.25.111
+  813  ping 192.168.25.11
+  814  ping 192.168.25.22
+  815  df -h
+  816  ls -ls /media
+  817  sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+  818  sudo blkid
+  819  ifconfig 
+  820  sudo mount /dev/sda /media
+  821  sudo apt update
+  822  sudo apt install exfat-fuse
+  823  sudo apt install ntfs-3g
+  824  sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+  825  ls -la /media
+  826  sudo mkdir /mnt/mydisk
+  827  sudo mount /dev/sda1 /mnt/mydisk
+  828  ls -la /mnt/mydisk
+  829  sudo mount /dev/sda2 /mnt/mydisk
+  830  ls -la /mnt/mydisk
+  831  sudo blkid
+  832  sudo umount /mnt/mydisk
+  833  ls -la /mnt/mydisk
+  834  sudo apt install lsof
+  835  lsof /mnt/mydisk
+  836  sudo umount /mnt/mydisk
+  837  ls -la /mnt/mydisk
+  838  sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+  839  sudo mount /dev/sda /mnt/mydisk
+  840  fdisk -l /dev/sda
+  841  sudo fdisk -l /dev/sda
+  842  sudo file -s /dev/sda
+  843  sudo ntfsfix -bd /dev/sda
+  844  sudo parted -l
+  845  fsck
+  846  sudo badblocks -sv /dev/sda
+  847  clear
+  848  sudo badblocks -b 4096 -c 4096 -s /dev/sda
+  849  sudo shutdown -F -r now
+  850  sudo apt-get install smartmontools 
+  851  sudo apt-get update
+  852  sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+  853  sudo smartctl -a /dev/sda | less
+  854  sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+  855  sudo smartctl -H /dev/sda
+  856  smartctl -d sat /dev/sda
+  857  smartctl /dev/sda
+  858  sudo lsblk -o UUID,NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL,MODEL
+  859  sudo smartctl -a /dev/sda
+  860  sudo ntfsfix -bd /dev/sda
+  861  fdisk /dev/sda
+  862  sudo fdisk /dev/sda
+  863  crontab -e
+  864  /usr/bin/python2.7 /home/pi/_project.2/sendEmail_proces2.py
+  865  /usr/bin/python2.7 /home/pi/_project.2/sendEmail_lastdata2.py
+  866  /usr/bin/python2.7 /home/pi/_project.2/ResampleFromSqlite3.py
+  867  sudo shutdown -h now
+  868  /usr/bin/python2.7 /home/pi/_project.2/ResampleFromSqlite3.py
+  869  sudo shutdown -h now
+  870  crontab -e
+  871  crontab
+  872  crontab -e
+  873  ls -la /etc/systemd/system
+  874  ifconfig
+  875  sudo shutdown -h now
+  876  sudo mount /dev/sda2 /media
+  877  sudo nano /media/etc/network/interfaces
+  878  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  879  sudo umount /dev/sda2 /media
+  880  sudo umount /media
+  881  sudo mount /dev/sda2 /media
+  882  ls -la /media
+  883  sudo nano /media/etc/network/interfaces
+  884  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  885  sudo nano /media/etc/network/interfaces
+  886  ls -la /media/home/pi
+  887  sudo umount /media
+  888  sudo mount /dev/sda2 /media
+  889  sudo fdisk -l
+  890  sudo mount /dev/sda2 /media
+  891  sudo nano /media/etc/network/interfaces
+  892  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  893  sudo mount /dev/sda2 /media
+  894  ls -la /media/home/pi
+  895  ls -la /media
+  896  ls -la /media/home
+  897  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  898  sudo u mount /media
+  899  sudo umount /media
+  900  sudo mount /dev/sda2 /media
+  901  sudo fdisk -l
+  902  sudo mount /dev/sda1 /media
+  903  ls -la /media/home
+  904  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  905  sudo nano /media/etc/network/interfaces
+  906  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  907  sudo umount /media
+  908  # This file describes the network interfaces available on your system
+  909  # and how to activate them. For more information, see interfaces(5).
+  910  # The loopback network interface
+  911  auto lo
+  912  iface lo inet loopback
+  913  # The primary network interface
+  914  iface eth0 inet dhcp
+  915  # Example to keep MAC address between reboots
+  916  #hwaddress ether DE:AD:BE:EF:CA:FE
+  917  # The secondary network interface
+  918  #auto eth1
+  919  #iface eth1 inet dhcp
+  920  # WiFi use: -> connmanctl
+  921  # Ethernet/RNDIS gadget (g_ether)
+  922  # Used by: /opt/scripts/boot/autoconfigure_usb0.sh
+  923  iface usb0 inet static
+  924  sudo fdisk -l
+  925  sudo mount /dev/sda2 /media
+  926  sudo nano /media/etc/network/interfaces
+  927  sudo nano /media/etc/wpa_supplicant/wpa_supplicant.conf
+  928  sudo nano /media/etc/network/interfaces
+  929  ls -la /media/home/pi
+  930  nano /media/home/pi/rpi_4_1.txt
+  931  nano /media/home/pi/sudi_rpi4.txt
+  932  nano /media/home
+  933  ls -la /media/home
+  934  sudo mount /dev/sda2 /media
+  935  sudo mount /dev/sda1 /media
+  936  sudo fdisk -l
+  937  sudo mount /dev/sda1 /media
+  938  sudo fdisk -l
+  939  sudo mount /dev/sda2 /media
+  940  sudo nano /media/etc/network/interfaces
+  941  sudo umount /media
+  942  ping 192.168.25.42
+  943  sudo shutdown -h now
+  944  influx
+  945  sudo shutdown -h now
+  946  ifconfig
+  947  sudo nano /etc/ssh/sshd_config
+  948  sudo reboot
+  949  ifconfig 
+  950  python /home/pi/_project.2/ChartFromSQlite3.py
+  951  cd /home/pi/_project.2/
+  952  python /home/pi/_project.2/ChartFromSQlite3.py
+  953  ls Chart*.*
+  954  python ChartFromSQLite3.py
+  955  python ChartFromSQLite3.py ARDUINO2_DS18B20_TEMP1
+  956  python ChartFromSQLite3.py ARDUINO2_DS18B20_TEMP1 100
+  957  sudo nano /etc/network/interfaces
+  958  nohup python  /home/pi/_project.2/ChartFromSQlite3.py ARDUINO2_DS18B20_TEMP1 100 &
+  959  sudo rebbot
+  960  sudo reboot
+  961  nohup python  /home/pi/_project.2/ChartFromSQlite3.py ARDUINO2_DS18B20_TEMP1 100 &
+  962  python /home/pi/_project.2/ChartFromSQlite3.py ARDUINO2_DS18B20_TEMP1 100 
+  963  ls -la /home/pi/_project.2/ChartFromSQlite3.py
+  964  cd /home/pi/_project.2/
+  965  ls Chart
+  966  ls Chart8
+  967  ls Chart*
+  968  ls -la /home/pi/_project.2/ChartFromSQLite3.py
+  969  python /home/pi/_project.2/ChartFromSQLite3.py
+  970  python /home/pi/_project.2/ChartFromSQLite3.py ARDUINO2_DS18B20_TEMP1 100
+  971  sudo nano /etc/ssh/sshd_config
+  972  ifconfig
+  973  sudo nano /etc/ssh/sshd_config
+  974  sudo reboot
+  975  sudo nano /etc/ssh/sshd_config
+  976  ifconfig
+  977  python /home/pi/_project.2/ChartFromSQLite3.py ARDUINO2_DS18B20_TEMP1 100
+  978  sudo shutdown -h now
+  979  ping 192.168.25.12
+  980  ping 192.168.25.22
+  981  sudo shutdwon -h now
+  982  sudo shutdown -h now
+  983  python /home/pi/_project.2/ChartFromSQLite3.py ARDUINO2_DS18B20_TEMP1 100
+  984  python3
+  985  cd /home/pi/project.2
+  986  cd /home/pi/_project.2
+  987  ptyhon3 wykres.py
+  988  python3 wykres.py
+  989  wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz
+  990  ls -la
+  991  tar xzvf Python-3.7.2.tgz
+  992  .7.2.tgz
+  993  cd Python-3.7.2/
+  994  ./configure
+  995  make -j4
+  996  sudo make install
+  997  python3
+  998  echo "alias python3=’/usr/local/opt/python-3.7.2/bin/python3.7′"  >> ~/.profile
+  999  python
+ 1000  python3
+ 1001  python3.7
+ 1002  python3.7 wykres.py
+ 1003  cd /home/pi/_project.2
+ 1004  python3.7 wykres.py
+ 1005  pip3 install flask
+ 1006  sudo su
+ 1007  python3
+ 1008  python3 wykres.py
+ 1009  pip3 install dateutil
+ 1010  sudo pip install python-dateutil
+ 1011  sudo pip3 install python-dateutil
+ 1012  python3 wykres.py
+ 1013  nohup python3 /home/pi/_project.2/wykres.py &
+ 1014  shutdown -h now
+ 1015  sudo shutdown -h now
+ 1016  su -pi
+ 1017  su - pi
+ 1018  sudo df -h
+ 1019  history > h1.txt
+ 1020  ls -la
+ 1021  nano  h1.txt
+ 1022  su pi
+ 1023  sudo su
+ 1024  lsblk
+ 1025  sudo mkfs.vfat /dev/sda1
+ 1026  sudo mkfs.vfat /dev/sda2
+ 1027  sudo df -h
+ 1028  lsblk
+ 1029  sudo fdisk -l
+ 1030  sudo umount /dev/sda1
+ 1031  sudo mkfs.vfat /dev/sda1
+ 1032  sudo apt install parted
+ 1033  parted --version
+ 1034  sudo dd if=/dev/zero of=/dev/sda bs=4096 status=progress
+ 1035  sudo parted /dev/sdb --script -- mklabel msdos
+ 1036  sudo parted /dev/sdA --script -- mklabel SILVER_PENN
+ 1037  sudo parted /dev/sda --script -- mklabel SILVER_PEN
+ 1038  sudo parted /dev/sda --script -- mkpart primary fat32 1MiB 100%
+ 1039  sudo parted /dev/sda --script print
+ 1040  sudo parted /dev/sda --script -- mkpart primary fat32 1MiB 100%
+ 1041  fdisk -l
+ 1042  sudo fdisk -l
+ 1043  sudo parted /dev/sdb --script print
+ 1044  sudo parted /dev/sda --script print
+ 1045  sudo parted /dev/sda --script -- mkpart primary fat32 1MiB 100%
+ 1046  sudo parted /dev/sda/SLIVER_PEN --script -- mkpart primary fat32 1MiB 100%
+ 1047  sudo parted /dev/sda --script -- mkpart primary fat32 1MiB 100%
+ 1048  sudo parted /dev/sda --script -- mklabel msdos
+ 1049  sudo parted /dev/sdb --script -- mkpart primary fat32 1MiB 100%
+ 1050  sudo parted /dev/sda --script -- mkpart primary fat32 1MiB 100%
+ 1051  sudo mkfs.vfat -F32 /dev/sda1
+ 1052  sudo parted /dev/sdb --script print
+ 1053  sudo parted /dev/sda --script print
+ 1054  gdisk /dev/sda
+ 1055  apt-get install gdisk
+ 1056  sudo apt-get install gdisk
+ 1057  gdisk /dev/sda
+ 1058  sudo gdisk /dev/sda
+ 1059  sudo parted /dev/sda
+ 1060  sudo parted /dev/sda --script -- mkpart primary fat32 1MiB 100%
+ 1061  sudo parted /dev/sdb --script print
+ 1062  sudo parted /dev/sda --script print
+ 1063  parted --version
+ 1064  lsblk
+ 1065  sudo parted /dev/sda --script print
+ 1066  sudo parted /dev/sdb --script print
+ 1067  sudo parted /dev/sda --script print
+ 1068  sudo dd if=/dev/zero of=/dev/sda bs=4096 status=progress
+ 1069  nohup python3 /home/pi/_project.2/wykres.py &
+ 1070  ifconfig
+ 1071  pi@raspberrypi:~ $ ifconfig
+ 1072  eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+ 1073  lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+ 1074  wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+ 1075  wlan0: flags=4163<UP,BROADCAST,RUNNING,M
+ 1076  clear
+ 1077  ifconfig
+ 1078  sudo nano /etc/network/interfaces
+ 1079  sudo shutdown -h now
+ 1080  sudo nano /etc/network/interfaces
+ 1081  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+ 1082  sudo REBBOT
+ 1083  sudo reboot
+ 1084  ping 91.239.198.48
+ 1085  crontab -e
+ 1086  ifconfig
+ 1087  crontab -e
+ 1088  sudo df -h
+ 1089  sudo nano /etc/ssh/sshd_config
+ 1090  sudo shutdown -h now
+ 1091  ping 192.168.25.11
+ 1092  crontab -e
+ 1093  usr/bin/python2.7 /home/pi/_project.2/PMread.py
+ 1094  /usr/bin/python2.7 /home/pi/_project.2/PMread.py
+ 1095  python /home/pi/_project.2/PMread.py
+ 1096  crontab -e
+ 1097  nano FreemMem.sh
+ 1098  sudo chmod +x FreemMem.sh
+ 1099  ./FreemMem.sh
+ 1100  crontab -e
+ 1101  free
+ 1102  crontab -e
+ 1103  sudo df -h
+ 1104  hostname
+ 1105  cat /etc/network/interfaces
+ 1106  sudo df -h
+ 1107  ls -la /var/log/telegraf/telegraf.log
+ 1108  sudo logrotate /etc/logrotate.d -v
+ 1109  sudo df -h
+ 1110  cat /etc/network/interfaces
+ 1111  sudo systemctl status grafana
+ 1112  sudo systemctl status influxdb.service
+ 1113  crontab -e
+ 1114  sudo systemctl status grafana-server.service
+ 1115  ps aux | grep "grafan"
+ 1116  cat /usr/local/etc/grafana/grafana.ini
+ 1117  sudo nano /etc/grafana/grafana.ini
+ 1118  ping 192.168.25.12
+ 1119  ping 192.168.25.22
+ 1120  ls -ls
+ 1121  python3
+ 1122  which pyton3
+ 1123  sudo apt install wavemon -y
+ 1124  wavemon
+ 1125  sudo wavemon -d | grep -i signal >> /home/pi/wavemon.txt
+ 1126  sudo wavemon >> /home/pi/wavemon.txt
+ 1127  sudo wavemon -d | grep -i signal >> /home/pi/wavemon.txt
+ 1128  sudo wavemon | grep -i signal >> /home/pi/wavemon.txt
+ 1129  cat /etc/systemd/system
+ 1130  cat /etc/systemd/systemd
+ 1131  ls -la /etc/systemd
+ 1132  ls -la /etc/systemd/system
+ 1133  crontab -e
+ 1134  sudo df -h
+ 1135  sudo cat /proc/mounts
+ 1136  ls -l /dev/disk/by-uuid
+ 1137  df -h
+ 1138  ls -l /dev/disk/by-uuid
+ 1139  sudo cat /proc/mounts
+ 1140  sudo apt install ntfs-3g
+ 1141  ls -l /dev/disk/by-uuid
+ 1142  df -h
+ 1143  sudo df -h
+ 1144  dmesg
+ 1145  sudo shutdown -h now
+ 1146  sudo df -h
+ 1147  dmesg
+ 1148  sudo df -h
+ 1149  ls -l /dev/disk/by-uuid
+ 1150  ls -l /dev/sda1
+ 1151  df
+ 1152  sudo mount -t vfat -o uid=pi,gid=pi /dev/sda1 /mnt/usb
+ 1153  df
+ 1154  ls -l /dev/disk/by-uuid
+ 1155  ls -l /dev/sda1
+ 1156  sudo df -h
+ 1157  ls -l /dev/disk/by-uuid/
+ 1158  sudo mkdir /media/Myusb
+ 1159  sudo chown -R pi:pi /media/Myusb
+ 1160  sudo mount /dev/sda1 /media/Myusb -o uid=pi,gid=pi
+ 1161  ls -la /media/Myusb
+ 1162  df -h
+ 1163  sudo mount /dev/sda2 /media/Myusb -o uid=pi,gid=pi
+ 1164  sudo mount -t vfat -o uid=pi,gid=pi /dev/sda2 /mnt/usb
+ 1165  df -h
+ 1166  ls -l /dev/sda2
+ 1167  ls -l /dev/sda2/*.*
+ 1168  ls -l /dev/sda2
+ 1169  sudo umount /dev/sda
+ 1170  sudo umount /mnt/usb
+ 1171  sudo umount /media/Myusb
+ 1172  df -h
+ 1173  ls -l /dev/sda1
+ 1174  ls -l /dev/sda2
+ 1175  sudo mount -t vfat -o uid=pi,gid=pi /dev/sda /mnt/usb
+ 1176  sudo shutdown -h now
+ 1177  sudo fdisk -l
+ 1178  sudo mount /dev/sda1 /mnt
+ 1179  sudo mount /dev/sda2 /mnt
+ 1180  ls
+ 1181  sudo shutdown -h now
+ 1182  sudo fdisk -l
+ 1183  sudo bash -c "$(curl -sSfL https://install.domoticz.com)"
+ 1184  curl -L https://install.domoticz.com | bash
+ 1185  sudo bash -c "$(curl -sSfL -k  https://install.domoticz.com)"
+ 1186  cd /home/pi
+ 1187  sl -la
+ 1188  ls -la
+ 1189  mkdir _monitoring
+ 1190  cd _monitoring
+ 1191  nano dht11_thingspeak.py
+ 1192  sudo service domoticz.sh status
+ 1193  sudo /etc/init.d/domoticz.sh start
+ 1194  ls -la /etc/init.d
+ 1195  cd domoticz
+ 1196  ls - la /home/pi
+ 1197  cd domoticz
+ 1198  udevadm info -a -p $(udevadm info -q path /dev/ttyUSB1) | less
+ 1199  which domoticz
+ 1200  cd /home/pi
+ 1201  sudo apt-get upgrade
+ 1202  lsusb
+ 1203  sudo apt-get install libatlas-base-dev
+ 1204  sudo apt-get install libjasper-dev
+ 1205  sudo apt-get install libqtgui4
+ 1206  sudo apt-get install libqt4-test
+ 1207  sudo apt-get install libhdf5-dev
+ 1208  sudo pip3 install flask
+ 1209  pip install --upgrade pip
+ 1210  sudo pip3 install numpy
+ 1211  sudo pip3 install opencv-contrib-python
+ 1212  sudo pip install --upgrade pip
+ 1213  sudo pip3 install opencv-contrib-python
+ 1214  pip install --upgrade pip setuptools wheel
+ 1215  pip install opencv-python
+ 1216  pip install opencv-contrib-python
+ 1217  sudo pip3 install imutils
+ 1218  sudo apt-get install libopencv-dev python3-opencv
+ 1219  sudo pip3 install opencv-python
+ 1220  sudo apt-get install libopencv-dev python3-opencv
+ 1221  sudo apt-get update
+ 1222  sudo apt-get dist-upgrade  
+ 1223  sudo apt-get update
+ 1224  sudo apt-get upgrade influxdb
+ 1225  curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+ 1226  source /etc/os-release
+ 1227  test $VERSION_ID = "7" && echo "deb https://repos.influxdata.com/debian wheezy stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+ 1228  test $VERSION_ID = "8" && echo "deb https://repos.influxdata.com/debian jessie stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+ 1229  test $VERSION_ID = "9" && echo "deb https://repos.influxdata.com/debian stretch stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+ 1230  sudo apt-get upgrade influxdb
+ 1231  sudo apt-get update --fix-missing
+ 1232  sudo apt-get update
+ 1233  sudo apt-get upgrade
+ 1234  python3
+ 1235  sudo apt-get install libopencv-dev python3-opencv
+ 1236  sudo apt-get install libopencv-dev python-opencv
+ 1237  sudo df -h
+ 1238  sudo apt install snapd
+ 1239  sudo reboot
+ 1240  sudo snap install core
+ 1241  sudo snap install rtsp-to-webrtsp
+ 1242  python
+ 1243  which python3
+ 1244  /usr/local/bin/python3
+ 1245  sudo ln -s libavcodec.so.58.35.100 libavcodec.so.57
+ 1246  /usr/local/bin/python3
+ 1247  sudo apt-get remove python-opencv; sudo apt-get install python-opencv
+ 1248  /usr/local/bin/python3
+ 1249  sudo apt-get update
+ 1250  sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libjasper-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 python3-pyqt5 python3-dev -y
+ 1251  sudo apt-get update && sudo apt-get upgrade
+ 1252  sudo apt-get install build-essential cmake pkg-config
+ 1253  sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
+ 1254  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+ 1255  sudo apt-get install libxvidcore-dev libx264-dev
+ 1256  sudo apt-get install libfontconfig1-dev libcairo2-dev
+ 1257  sudo apt-get install libgdk-pixbuf2.0-dev libpango1.0-dev
+ 1258  sudo apt-get install libgtk2.0-dev libgtk-3-dev
+ 1259  sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
+ 1260  sudo apt-get update -y
+ 1261  sudo apt-get install -y libhdf5-dev
+ 1262  sudo apt-get install libhdf5-serial-dev
+ 1263  sudo apt-get install python3-pyqt5 python3-dev
+ 1264  sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
+ 1265  sudo apt-get install python3-dev
+ 1266  pip install opencv-contrib-python==4.1.0.25
+ 1267  python3
+ 1268  which python
+ 1269  which python2
+ 1270  which python3
+ 1271  /usr/local/bin/python3
+ 1272  pip --version
+ 1273  pip install opencv-python
+ 1274  which python3
+ 1275  cd /usr/local/bin/python3
+ 1276  cd /usr/local/bin/python3.7
+ 1277  sudo apt-get install python3-opencv
+ 1278  sudo pip3 install opencv-contrib-python
+ 1279  cd /home/pi/camWebServer
+ 1280  python appCamera.py
+ 1281  ls -la
+ 1282  python  appCam.py
+ 1283  sudo -H apt install python3-picamera
+ 1284  sudo -H pip3 install --upgrade picamera[array]
+ 1285  python  appCam.py
+ 1286  which python3
+ 1287  /usr/local/bin/python3 appCam.py
+ 1288  ifconfig
+ 1289  /usr/local/bin/python3 appCam.py
+ 1290  sudo raspi-config
+ 1291  /usr/local/bin/python3 appCam.py
+ 1292  /usr/local/bin/python3 
+ 1293  sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libjasper-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 python3-pyqt5 python3-dev -y
+ 1294  sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
+ 1295  sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-105
+ 1296  sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-100
+ 1297  pip install opencv-contrib-python==4.1.0.25
+ 1298  /usr/local/bin/python3 appCam.py
+ 1299  /usr/local/bin/python3
+ 1300  sudo ln -s /usr/lib/x86_64-linux-gnu/libhdf5_serial.so.103 /usr/lib/x86_64-linux-gnu/libhdf5_serial.so.100
+ 1301  sudo apt-get install libglib2.0-0
+ 1302  sudo apt-get install libpng12-0
+ 1303  /usr/local/bin/python3
+ 1304  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64/
+ 1305  /usr/local/bin/python3
+ 1306  sudo apt install python3-opencv
+ 1307  sudo pip3 install opencv-python
+ 1308  pip3 install opencv-python
+ 1309  sudo apt install python3-opencv
+ 1310  python3
+ 1311  ln -s /usr/local/Cellar/python/3.7.4/bin/python3 /usr/local/opt/python
+ 1312  sudo apt-get install python3-dev
+ 1313  sudo apt-get install python3-picamera
+ 1314  sudo apt-get install python3-opencv
+ 1315  python3 -m pip install opencv-python
+ 1316  which python3
+ 1317  sudo rm /usr/bin/python
+ 1318  sudo ln -s /usr/bin/python3 /usr/bin/python
+ 1319  python
+ 1320  python3
+ 1321  sudo ln -s /usr/bin/python3 /usr/bin/python3
+ 1322  sudo rm /usr/bin/python
+ 1323  sudo ln -s /usr/bin/python3 /usr/bin/python3
+ 1324  sudo ln -s /usr/bin/python3 /usr/bin/python
+ 1325  python
+ 1326  sudo apt-get update
+ 1327  sudo apt-get upgrade
+ 1328  sudo apt-get install libatlas-base-dev
+ 1329  sudo apt-get install libjasper-dev
+ 1330  sudo apt-get install libqtgui4
+ 1331  sudo apt-get install libqt4-test
+ 1332  sudo apt-get install libhdf5-dev
+ 1333  sudo pip3 install flask
+ 1334  sudo pip3 install numpy
+ 1335  sudo pip3 install opencv-contrib-python
+ 1336  sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev libjasper-dev libpng-dev libavcodec-dev libavformat-dev libswscale-dev libv4l-dev libxvidcore-dev libx264-dev libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libpango1.0-dev libgtk2.0-dev libgtk-3-dev libatlas-base-dev gfortran libhdf5-dev libhdf5-serial-dev libhdf5-103 python3-pyqt5 python3-dev -y
+ 1337  cat /etc/debian_version
+ 1338  sudo pip3 install opencv-python
+ 1339  sudo pip3 install opencv-contrib-python
+ 1340  apt-get install python3-opencv
+ 1341  sudo apt-get install python3-opencv
+ 1342  sudo apt full-upgrade
+ 1343  sudo apt install python3-opencv
+ 1344  sudo apt-get install libhdf5-dev -y && sudo apt-get install libhdf5-serial-dev -y && sudo apt-get install libatlas-base-dev -y && sudo apt-get install libjasper-dev -y && sudo apt-get install libqtgui4 -y && sudo apt-get install libqt4-test -y
+ 1345  pip3 install opencv-python
+ 1346  udo apt install python3-opencv-apps
+ 1347  sudo apt install python3-opencv-apps
+ 1348  sudo apt install python3-opencv
+ 1349  pip install --upgrade pip setuptools wheel
+ 1350  sudo apt-get install -y libhdf5-dev libhdf5-serial-dev python3-pyqt5 libatlas-base-dev libjasper-dev
+ 1351  python3 -V
+ 1352  python -V
+ 1353  pip3 -V
+ 1354  pip install opencv-contrib-python==4.5.3.56
+ 1355  sudo reboot
+ 1356  cd /home/pi/_camera
+ 1357  python main.py
+ 1358  python3 main.py
+ 1359  pip install imutils
+ 1360  python main.py
+ 1361  pip install--upgrade imutils
+ 1362  sudo pip3 uninstall imutils
+ 1363  sudo pip3 install--upgrade imutils
+ 1364  pip install  imutils
+ 1365  python main.py
+ 1366  pip install--upgrade imutils
+ 1367  python
+ 1368  pip install --upgrade imutils
+ 1369  pip3 install --upgrade imutils
+ 1370  pip3 install imutils
+ 1371  pip install imutils
+ 1372  python 
+ 1373  python3
+ 1374  which python
+ 1375  head -n1 /usr/local/bin/pip
+ 1376  sudo pip3 install --upgrade imutils
+ 1377  sudo pip3 install opencv-python
+ 1378  pip3 install opencv-python
+ 1379  sudo apt-get install ffmpeg
+ 1380  python
+ 1381  sudo raspi-config
+ 1382  sudo df -h
+ 1383  sudo apt-get update && sudo apt-get upgrade
+ 1384  mkdir ~/src && cd ~/src
+ 1385  wget https://bootstrap.pypa.io/get-pip.py
+ 1386  sudo python3 get-pip.py
+ 1387  sudo pip install opencv-contrib-python
+ 1388  sudo apt install libhdf5-dev libhdf5-103
+ 1389  sudo apt-get install python2.7-dev python3-dev
+ 1390  cd ~/Downloads
+ 1391  wget -O opencv.zip
+ 1392  $ wget -O opencv.zip https://github.com/opencv/opencv/archive/master.zip
+ 1393  wget -O opencv.zip https://github.com/opencv/opencv/archive/master.zip
+ 1394  unzip opencv.zip
+ 1395  wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/master.zip
+ 1396  wget https://bootstrap.pypa.io/get-pip.py
+ 1397  sudo python get-pip.py
+ 1398  ls -la *.py
+ 1399  ls -la *.py*
+ 1400  cp  get-pip.py  get-pip.py.org_3.7
+ 1401  cp  get-pip.py.2 get-pip.py
+ 1402  sudo python get-pip.py
+ 1403  sudo pip install virtualenv virtualenvwrapper
+ 1404  sudo rm -rf ~/.cache/pip
+ 1405  echo -e “\n# virtualenv and virtualenvwrapper” >> ~/.profile
+ 1406  echo “export WORKON_HOME=$HOME/.virtualenvs” >> ~/.profile
+ 1407  echo “source /usr/local/bin/virtualenvwrapper.sh” >> ~/.profile
+ 1408  ls -la
+ 1409  logout
+ 1410  cd ~/src
+ 1411  ls -la
+ 1412  echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.profile
+ 1413  cho "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
+ 1414  echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
+ 1415  echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+ 1416  logout
+ 1417  source ~/.profile
+ 1418  mkvirtualenv cv -p python3
+ 1419  sudo reboot
+ 1420  source ~/.profile
+ 1421  workon cv
+ 1422  pip install numpy
+ 1423  cd ~/śrc
+ 1424  ~/src
+ 1425  cd ~/Downloads/opencv-master
+ 1426  cd /home/pi/src
+ 1427  cd opencv-master
+ 1428  mkdir build
+ 1429  cd build
+ 1430  cmake -D CMAKE_BUILD_TYPE=RELEASE  -D CMAKE_INSTALL_PREFIX=/usr/local
+ 1431  clear
+ 1432  cmake -D CMAKE_BUILD_TYPE=RELEASE  -D CMAKE_INSTALL_PREFIX=/usr/local
+ 1433  cmake
+ 1434  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv_contrib-master/modules -D BUILD_EXAMPLES=ON
+ 1435  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv_contrib-master/modules -D BUILD_EXAMPLES=ON .
+ 1436  ls -la /home/pi/src/opencv_contrib-master
+ 1437  ls -la /home/pi/src
+ 1438  ls -la /home/pi/src/opencv-master
+ 1439  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv-master/modules -D BUILD_EXAMPLES=ON .
+ 1440  ls -la /home/pi/src/opencv-master/build
+ 1441  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv-master/modules -D BUILD_EXAMPLES=ON .
+ 1442  cd ~/src
+ 1443  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv-master/modules -D BUILD_EXAMPLES=ON .
+ 1444  cd /home/pi/src/opencv-master/build
+ 1445  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv-master/modules -D BUILD_EXAMPLES=ON .
+ 1446  cd /home/pi/src/opencv-master
+ 1447  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=/home/pi/src/opencv-master/modules -D BUILD_EXAMPLES=ON .
+ 1448  cd /home/pi
+ 1449  sudo pip install virtualenv virtualenvwrapper
+ 1450  deactivate
+ 1451  sudo pip install virtualenv virtualenvwrapper
+ 1452  nano ~/.bashrc
+ 1453  source ~/.bashrc
+ 1454  mkvirtualenv pistats -p python3
+ 1455  pip install opencv-contrib-python
+ 1456  python
+ 1457  ls -la /home/pi/_camera
+ 1458  python main.py
+ 1459  python /home/pi/_camera/main.py
+ 1460  pip install flask
+ 1461  python /home/pi/_camera/main.py
+ 1462  pip install imutils
+ 1463  python /home/pi/_camera/main.py
+ 1464  pip install picamera
+ 1465  python /home/pi/_camera/main.py
+ 1466  pip install opencv-contrib-python
+ 1467  python /home/pi/_camera/main.py
+ 1468  cd /home/pi/_camera
+ 1469  python /home/pi/_camera/main.py
+ 1470  ls -la /home/pi/_camera/usb*
+ 1471  python /home/pi/_camera/usbCam.py
+ 1472  ifconfig
+ 1473  python /home/pi/_camera/usbCam.py
+ 1474  ls /dev/video*
+ 1475  python /home/pi/_camera/usbCam.py
+ 1476  python /home/pi/_camera.2/app.py
+ 1477  sudo df -h
+ 1478  ls -la /home/pi/_camera/usb*
+ 1479  ls /dev/video*
+ 1480  workon pistats
+ 1481  python /home/pi/_camera.2/app.py
+ 1482  sudo shutdown -h now
+ 1483  python /home/pi/_camera.2/app.py
+ 1484  workon pistats
+ 1485  python /home/pi/_camera.2/app.py
+ 1486  sudo nano /etc/apt/sources.list
+ 1487  history > hist_21102022.@@@
+ 1488  ping 172.168.25.113
+ 1489  sudo apt install lsb-release
+ 1490  curl https://packages.sury.org/php/apt.gpg | sudo tee /usr/share/keyrings/suryphp-archive-keyring.gpg >/dev/null
+ 1491  echo "deb [signed-by=/usr/share/keyrings/suryphp-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/sury-php.list
+ 1492  sudo apt update
+ 1493  sudo apt-add-repository ppa:ondrej/php
+ 1494  echo "deb [signed-by=/usr/share/keyrings/suryphp-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/sury-php.list
+ 1495  sudo apt update
+ 1496  sudo apt install php8.1-cli
+ 1497  sudo apt-add-repository ppa:ondrej/php
+ 1498  sudo apt-get install software-properties-common
+ 1499  sudo apt-add-repository ppa:ondrej/php
+ 1500  sudo apt update
+ 1501  sudo apt-add-repository ppa:ondrej/php
+ 1502  php -v
+ 1503  sudo apt install lsb-release
+ 1504  ifconfig
+ 1505  php -v
+ 1506  python
+ 1507  sudo apt update
+ 1508  ping 172.168.25.113
+ 1509  ifconfig
+ 1510  ping 192.168.25.113
+ 1511  php -v
+ 1512  sudo apt-get update && sudo apt-get upgrade
+ 1513  sudo apt-get install php
+ 1514  source ~/.bashrc
+ 1515  nano ~/.bashrc
+ 1516  fdisk -l
+ 1517  sudo fdisk -l
+ 1518  sudo mount /dev/sda1 /mnt
+ 1519  sudo mount /dev/sda2 /mnt
+ 1520  sudo umount /mnt
+ 1521  sudo fdisk -l
+ 1522  sudo mount /dev/sdb1 /mnt
+ 1523  sudo mount /dev/sdb2 /mnt
+ 1524  sudo nano /mnt/etc/network/interfaces
+ 1525  sudo umnount /mnt
+ 1526  sudo umount /mnt
+ 1527  sudo fdisk -l
+ 1528  sudo mount /dev/sdc1 /mnt
+ 1529  sudo mount /dev/sdc2 /mnt
+ 1530  suddo nano /mnt/etc/network/interfaes
+ 1531  sudo nano /mnt/etc/network/interfaes
+ 1532  ls -la /mnt/etc/network
+ 1533  sudo nano /mnt/etc/network/interfaces
+ 1534  sudo umount /mnt
+ 1535  sudo fdisk -l
+ 1536  sudo mount /dev/sdd1 /mnt
+ 1537  sudo mount /dev/sdd2 /mnt
+ 1538  python camera.py
+ 1539  sudo fdisk -l
+ 1540  sudo mount /dev/sde1 /mnt
+ 1541  sudo mount /dev/sde2 /mnt
+ 1542  sudo umount /mnt
+ 1543  sudo fdisk -l
+ 1544  sudo dosfsck -w -r -l -a -v -t /dev/sdf1
+ 1545  sudo dosfsck -w -r -l -a -v -t /dev/sdf2
+ 1546  sudo fsck -p /dev/sdf1
+ 1547  sudo fsck -p /dev/sdf2
+ 1548  sudo tune2fs -l /dev/sdf1
+ 1549  sudo fdisk -l
+ 1550  sudo tune2fs -l /dev/sdf1 | grep -i 'last checked\|mount count'
+ 1551  sudo mount /dev/sdf1 /mnt
+ 1552  sudo mount /dev/sdf2 /mnt
+ 1553  sudo umount /dev/sdf1
+ 1554  sudo umount /mnt
+ 1555  sudo fdisk -l
+ 1556  sudo fsck -p /dev/sdf2
+ 1557  sudo fsck -p /dev/sdf1
+ 1558  sudo umount /mnt
+ 1559  sudo fdisk -l
+ 1560  sudo fsck -p /dev/sdf1
+ 1561  sudo fsck -p /dev/sdf2
+ 1562  sudo apt-get install smartmontools
+ 1563  sudo fdisk -l
+ 1564  fsck –a/dev/sdf1
+ 1565  fsck –p /dev/sdf1
+ 1566  sudo fsck –p /dev/sdf1
+ 1567  sudo fsck -p /dev/sdf1
+ 1568  sudo fsck -a /dev/sdf1
+ 1569  sudo fsck -a /dev/sdf2
+ 1570  sudo fsck /dev/sdf2
+ 1571  sudo fsck /dev/sdf1
+ 1572  fsck /dev/sdf1
+ 1573  sudo fsck /dev/sdf1
+ 1574  fsck -AR -y
+ 1575  sudo fsck -AR -y
+ 1576  sudo fsck -AR -t ext2 -y
+ 1577  sudo fsck -TAR
+ 1578  cd ~/.ssh
+ 1579  ls -lah
+ 1580  mkdir key_github
+ 1581  cp id_rsa* key_github
+ 1582  ssh-keygen -t rsa -C "rafalbirecki@yahoo.com"
+ 1583  ls -la
+ 1584  nano known_hosts
+ 1585  pbcopy < ~/.ssh/id_rsa.pub
+ 1586  nano ~/.ssh/id_rsa.pub
+ 1587  clip < ~/.ssh/id_rsa.pub
+ 1588  ssh -T git@github.com
+ 1589  ssh -T rabi2x@github.com
+ 1590  ls -al ~/.ssh
+ 1591  ssh -T git@github.com
+ 1592  ssh -vT git@github.com
+ 1593  ssh-keygen -t ed25519 -C "rafalbirecki@yahoo.com"
+ 1594  ls -la
+ 1595  ssh -vT git@github.com
+ 1596  eval "$(ssh-agent -s)"
+ 1597  ssh-add ~/.ssh/id_ed25519
+ 1598  ssh -vT git@github.com
+ 1599  gpg --list-secret-keys --keyid-format=long
+ 1600  ssh-keygen -p -f ~/.ssh/id_ed25519
+ 1601  nano ~/.ssh/id_ed25519.pub
+ 1602  ssh -vT git@github.com
+ 1603  ssh -vT rabi2x@github.com
+ 1604  ssh -vT git@github.com
+ 1605  ssh -vT rabi2x@github.com
+ 1606  rm id_rsa*
+ 1607  ssh -vT git@github.com
+ 1608  ssh -vT rabi2x@github.com
+ 1609  ls -la
+ 1610  sudo nano id_ed25519.pub
+ 1611  git fetch
+ 1612* 
+ 1613  cd /home/pi
+ 1614  ls git*
+ 1615  ls -la
+ 1616  cd /home/pi/git2
+ 1617  cd test
+ 1618  git push
+ 1619  git init
+ 1620  git remote -v
+ 1621  git push https://github.com/rabi2x/test.git
+ 1622  git pull https://github.com/rabi2x/test.git
+ 1623  git commit - "next .11"
+ 1624  git commit -m "next .11"
+ 1625  git commit -a
+ 1626  git push -u origin master
+ 1627  git push -u orgin https://github.com/rabi2x/test.git/
+ 1628  git push -u orgin https://github.com/rabi2x/test.git
+ 1629  git init
+ 1630  git status
+ 1631  git checkout -- Chart.py
+ 1632  git status
+ 1633  git init
+ 1634  git add Chart.py
+ 1635  git status
+ 1636  git log
+ 1637  git push https://github.com/rabi2x/test.git
+ 1638  git pull https://github.com/rabi2x/test.git
+ 1639  nano Chart.py
+ 1640  git pull https://github.com/rabi2x/test.git
+ 1641  nano Chart.py
+ 1642  git status
+ 1643  git add Cahrt.py
+ 1644  git add Chart.py
+ 1645  git status
+ 1646  nano Chart.py
+ 1647  git commit -m "chart .11 inspect"
+ 1648  git status
+ 1649  git pull
+ 1650  git remote -v
+ 1651  git pull origin  https://github.com/rabi2x/test.git
+ 1652  git pull https://github.com/rabi2x/test.git
+ 1653  cat .git/config
+ 1654  git push
+ 1655  git pull https://github.com/rabi2x/test.git
+ 1656  history > hist.txt
