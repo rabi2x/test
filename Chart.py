@@ -22,10 +22,10 @@ full_date     = now.strftime("%Y-%m-%d %H:%M:%S")
 call_date     = now.strftime("%Y-%m-%d")
 call_date2    = now.strftime("%d-%m-%Y")
 #....................................................................
-hostIP        = "192.168.25.12"                                    # "172.16.16.33" /config.ChartIP
-hostPORT      = 5555                                                # 15555  /config.ChartPORT
-formName      = 'index_wykres128.html'                              # 'index_wykres128.html' /config.formName
-my_list       = ['ping from ', ' server : ', '8.8.8.8']       # config.my_list     #['ping from ', ' server : ', '172.16.16.128'] /config.my_list
+hostIP        = "192.168.25.12"                                    
+hostPORT      = 5555                                                
+formName      = 'index_wykres128.html'                             
+my_list       = ['ping from ', ' server : ', '8.8.8.8']      
 opions_me     = ["Meter", "Kilometer", "Millimeter"]
 
 
