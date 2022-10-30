@@ -23,7 +23,7 @@ call_date     = now.strftime("%Y-%m-%d")
 call_date2    = now.strftime("%d-%m-%Y")
 #....................................................................
 hostIP        = "192.168.25.12"                                    
-hostPORT      = 5555                                                
+hostPORT      = 5555   # komentarz z .11
 formName      = 'index_wykres128.html'                             
 my_list       = ['ping from ', ' server : ', '8.8.8.8']      
 opions_me     = ["Meter", "Kilometer", "Millimeter"]
