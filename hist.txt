@@ -1,3 +1,5 @@
+  ----------------------------------------------------
+
   657  python /home/pi/_project.2/CheckDataInInfluxDB.py
   658  sudo shutdown -h now
   659  cd \home\pi\_projekt.2
